@@ -5,16 +5,17 @@ p{
 .search-bar{
     display: block;
 }
-.video-preview{
-    display: inline-block;
-    vertical-align: top;
-    margin: 6px;
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
 }
 .thumbnail-0{
     margin-bottom: 12px;
 }
 .thumbnail-1{
-    width: 300px;
+    width: 100%;
 }
 .top-vidoe-info{
     display: grid;
