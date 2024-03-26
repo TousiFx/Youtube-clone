@@ -16,6 +16,11 @@ p{
 .thumbnail-1{
     width: 300px;
 }
+.top-vidoe-info{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+
+}
 .video-title{
     font-size: 14px;
     font-weight: 500;
@@ -23,13 +28,11 @@ p{
     margin-bottom: 5px;
 }
 .channal-icons{
-    display: inline-block;
     width: 50px;
     vertical-align: top;
 }
 .video-info{
-    display: inline-block;
-    width: 250px;
+    width: 245px;
 }
 .channal-icon1{
     width: 40px;
