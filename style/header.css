@@ -43,6 +43,9 @@
     height: 41px;
     width: 65px;
     border: 1px solid  rgba(151, 150, 150, 0.5);
+    background-color: rgb(247, 245, 245);
+    margin-left: -1px;
+    margin-right: 10px;
 }
 .voice-search{
     height: 41px;
@@ -50,6 +53,8 @@
 }
 .searchlogo{
     height: 27px;
+    margin-top:4px;
+    
 }
 .voicelogo{
     height: 24px;
