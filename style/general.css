@@ -5,3 +5,8 @@ p{
 *{
     margin: 0;
 }
+body{
+    padding-top: 75px;
+    padding-left: 80px;
+    background-color: rgb(245, 241, 241);
+}

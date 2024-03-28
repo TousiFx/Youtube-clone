@@ -6,9 +6,25 @@
 }
 .thumbnail-0{
     margin-bottom: 12px;
+    position: relative;
 }
 .thumbnail-1{
     width: 100%;
+    position: relative;
+}
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding-top: 2px;
+    padding-right:4px;
+    padding-bottom:2px ;
+    padding-left: 4px;
+    font-family: Roboto,arial;
+    font-size: 13px;
+    font-weight: 500;
 }
 .top-vidoe-info{
     display: grid;
