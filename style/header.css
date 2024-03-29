@@ -60,6 +60,23 @@
     background-color: rgb(247, 245, 245);
     margin-left: -1px;
     margin-right: 10px;
+    position: relative;
+}
+.search-button .tooltip{
+    position: absolute;
+    top: 50px;
+    font-family: Roboto, arial;
+    background-color: gray;
+    color: white;
+    padding: 4px 8px 4px 8px;
+    opacity: 0;
+    border-radius: 2px;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    
+}
+.search-button:hover .tooltip{
+    opacity: 1;
 }
 .voice-search{
     height: 40px;
